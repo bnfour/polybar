@@ -1,3 +1,12 @@
+# Polybar _fork_
+This is a fork that replaces some hardcoded formatting with other hardcoded formatting I see more fit for my personal setups.
+
+## TODOs
+- Actually list changes
+- Get this on copr?
+
+# Original readme contents below
+
 <p align="center">
   <img src="doc/_static/banner.png#gh-light-mode-only" alt="Polybar">
   <img src="doc/_static/banner-dark-mode.png#gh-dark-mode-only" alt="Polybar">
