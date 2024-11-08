@@ -8,7 +8,7 @@ Mostly formatting changes to make more compact output.
 ### Formatting
 #### Unit spacing
 Removed hardcoded spaces between value and unit:
-- for file size (only concerns my for memory module)
+- for file size (only concerns me for memory module)
 - for network speed
 #### Value formatting
 Changed default `.2f` formatting for battery power consumption to `.0f` ("1.23" -> "1")
