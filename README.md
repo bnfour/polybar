@@ -1,12 +1,29 @@
 # Polybar _fork_
-This is a fork that replaces some hardcoded formatting with other hardcoded formatting I see more fit for my personal setups.
+This is a fork of [Polybar](https://github.com/polybar/polybar) that replaces some hardcoded formatting with other hardcoded formatting I see more fit for my personal setups.
+
+No releases for now(?), just use the [compiling guide from the original repo](https://github.com/polybar/polybar/wiki/Compiling).
+
+## Changes from upstream
+Mostly formatting changes to make more compact output.
+### Formatting
+#### Unit spacing
+Removed hardcoded spaces between value and unit:
+- for file size (only concerns my for memory module)
+- for network speed
+#### Value formatting
+Changed default `.2f` formatting for battery power consumption to `.0f` ("1.23" -> "1")
+
+### Identification
+This forks reports `+bnfork` as a feature on `--version` command.
+
+## Repo structure
+`bn/trunk` is the main branch for the changes. `master` is the source of the upstream code when a new release is published.
 
 ## TODOs
-- Actually list changes
 - Get this on copr?
 
-# Original readme contents below
-
+# Original readme contents for polybar
+<details><summary>Collapsed for that minimalistic feel</summary>
 <p align="center">
   <img src="doc/_static/banner.png#gh-light-mode-only" alt="Polybar">
   <img src="doc/_static/banner-dark-mode.png#gh-dark-mode-only" alt="Polybar">
@@ -249,3 +266,4 @@ Polybar is licensed under the MIT license. [See LICENSE for more information](ht
 Release archives and tags are signed by a maintainer using GPG. Currently
 everything is signed by [Patrick Ziegler](https://www.patrickziegler.ch/gpg)
 with fingerprint `1D5791352D51A228D4DDDBA4521E5E03AEBCA1A7`
+</details>
