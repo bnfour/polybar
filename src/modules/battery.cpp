@@ -102,7 +102,7 @@ namespace modules {
 
       // convert to string with 2 decimmal places
       string rtn(16, '\0'); // 16 should be plenty big. Cant see it needing more than 6/7..
-      auto written = std::snprintf(&rtn[0], rtn.size(), "%.2f", consumption);
+      auto written = std::snprintf(&rtn[0], rtn.size(), "%1.0f", consumption);
       rtn.resize(written);
 
       return rtn;

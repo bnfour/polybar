@@ -358,7 +358,7 @@ namespace net {
     }
 
     return sstream() << std::setw(minwidth) << std::setfill(' ') << std::setprecision(precision) << std::fixed
-                     << speedrate << " " << suffix << unit;
+                     << speedrate << suffix << unit;
   }
 
   // }}}
