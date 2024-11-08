@@ -415,14 +415,14 @@ string floating_point(double value, size_t precision, bool fixed, const string& 
  * Create a MiB filesize string
  */
 string filesize_mib(unsigned long long kibibytes, size_t precision, const string& locale) {
-  return floating_point(kibibytes / 1024.0, precision, true, locale) + " MiB";
+  return floating_point(kibibytes / 1024.0, precision, true, locale) + "M";
 }
 
 /**
  * Create a GiB filesize string
  */
 string filesize_gib(unsigned long long kibibytes, size_t precision, const string& locale) {
-  return floating_point(kibibytes / 1024.0 / 1024.0, precision, true, locale) + " GiB";
+  return floating_point(kibibytes / 1024.0 / 1024.0, precision, true, locale) + "G";
 }
 
 /**
