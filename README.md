@@ -11,7 +11,8 @@ Removed hardcoded spaces between value and unit:
 - for file size (only concerns me for memory module)
 - for network speed
 #### Value formatting
-Changed default `.2f` formatting for battery power consumption to `.0f` ("1.23" -> "1")
+Changed default `.2f` formatting for battery power consumption to `.0f` ("1.23" -> "1").  
+Shortened the unit for the file size ("MiB" -> "M", "GiB" -> "G").
 
 ### Identification
 This forks reports `+bnfork` as a feature on `--version` command.
