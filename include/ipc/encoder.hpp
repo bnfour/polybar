@@ -1,5 +1,6 @@
 #pragma once
 
+#include <cstdint>
 #include "common.hpp"
 #include "errors.hpp"
 #include "ipc/msg.hpp"
